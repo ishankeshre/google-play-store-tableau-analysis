@@ -1,0 +1,185 @@
+# Google Play Store Analysis
+
+## Project Overview
+
+This project analyzes **Google Play Store application data using Tableau** to understand application distribution, category-level ratings, installation performance, free vs paid applications, and application update trends.
+
+The project converts cleaned Google Play Store data into an interactive Tableau dashboard using multiple visualizations to identify patterns in application performance and user engagement.
+
+## Objectives
+
+* Analyze the number of applications across categories
+* Compare average application ratings by category
+* Analyze installation volumes across categories
+* Compare free and paid applications
+* Analyze application update trends over time
+* Build an interactive Tableau dashboard for application performance analysis
+
+## Tools & Skills
+
+* Tableau
+* Data Visualization
+* Filters and Interactive Analysis
+* Data Cleaning
+* Data Preparation
+* KPI Analysis
+* Category Analysis
+* Trend Analysis
+* Dashboard Development
+* Business Analysis
+
+## Dataset
+
+The project uses Google Play Store application data containing information such as:
+
+* App Name
+* Category
+* Rating
+* Reviews
+* Installs
+* Type
+* Price
+* Content Rating
+* Genres
+* Last Updated
+* Current Version
+* Android Version
+* Size
+
+The Tableau workbook uses a cleaned dataset named **PlayStore_Clean**.
+
+## Analysis Performed
+
+### Application Distribution
+
+The analysis evaluates the number of applications available across different categories and identifies categories with the highest application presence.
+
+### Average Rating by Category
+
+The project compares average application ratings across categories to identify categories with stronger user ratings.
+
+### Installation Analysis
+
+Installation volumes are analyzed by category to identify categories with the highest user reach and application adoption.
+
+### Free vs Paid Analysis
+
+Applications are segmented into:
+
+* Free applications
+* Paid applications
+
+The dashboard provides a visual comparison between the two application types.
+
+### Update Trend Analysis
+
+Application update activity is analyzed over time using the **Last Updated** field to identify changes in the number of applications updated across different periods.
+
+## Tableau Dashboard
+
+The Tableau workbook contains the following analytical visualizations:
+
+### Average Rating by Category
+
+Shows the average application rating across different Google Play Store categories.
+
+### Free vs Paid
+
+Provides a comparison of applications based on whether they are free or paid.
+
+### Install by Category
+
+Shows total installation volume across application categories.
+
+### Total App
+
+Provides an overview of the application dataset and rating-related information.
+
+### Updates Over Time
+
+Shows the number of applications updated over time based on the Last Updated date.
+
+## Key Metrics
+
+Based on the Google Play Store dataset used for the project:
+
+* **Unique Applications:** 9,659
+* **Total Categories:** 33
+* **Free Applications:** 9,592
+* **Paid Applications:** 765
+* **Average Rating:** 4.19
+* **Total Installs:** Approximately 146.63 Billion
+* **Median Installs:** 100,000
+* **Maximum Installation Level:** 1 Billion
+* **Average Paid App Price:** Approximately $13.96
+* **Maximum App Price:** $400
+
+## Key Insights
+
+* **Family** is the largest application category, with approximately **1,943 applications**.
+* **Game** is one of the strongest categories in terms of application installations, with approximately **31.54 billion total installs**.
+* **Communication** also has very high installation volume, with approximately **24.15 billion installs**.
+* **Events** has the highest average rating at approximately **4.44**.
+* **Education** follows with an average rating of approximately **4.38**.
+* The Google Play Store dataset is heavily dominated by **free applications**, with approximately **92.6%** of applications classified as free.
+* Paid applications represent approximately **7.4%** of the applications in the dataset.
+* The overall average application rating is approximately **4.19**.
+* The median installation level is **100,000**, while the highest installation level in the dataset reaches **1 billion**.
+* The application update analysis shows that application activity changes considerably across different time periods.
+
+## Business Insights
+
+The analysis shows that application performance is concentrated in several major categories.
+
+Categories such as **Game and Communication** demonstrate particularly strong installation volumes, indicating high user demand and market reach.
+
+The category rating analysis also shows that high installation volume and high average rating are not necessarily the same thing. This distinction is useful when evaluating application categories because popularity and user satisfaction represent different aspects of performance.
+
+The free-versus-paid analysis highlights the strong dominance of the free application model within the dataset.
+
+## Dashboard Preview
+
+Add a screenshot of your Tableau dashboard here:
+
+![Google Play Store Tableau Dashboard](screenshots/dashboard.png)
+
+## Business Recommendations
+
+* Focus category-level analysis on both **installation volume and average rating** rather than using a single performance metric.
+* Use high-installation categories to identify areas with strong market demand.
+* Analyze highly rated categories to understand potential quality and user-satisfaction patterns.
+* Consider the dominance of free applications when evaluating pricing strategies.
+* Use application update trends to understand periods of higher development and maintenance activity.
+
+## Limitations
+
+* The dataset represents a historical snapshot of Google Play Store applications.
+* Installation figures are provided as ranges rather than exact values.
+* Some application records contain missing values.
+* Duplicate application records may exist in the original dataset.
+* The analysis describes historical application performance and should not be interpreted as current Google Play Store market performance.
+* Correlation or visual relationships between variables should not be interpreted as proof of causation.
+
+## Project Structure
+
+```text
+Google-Play-Store-Tableau-Analysis/
+│
+├── README.md
+├── Playstore.twb
+├── googleplaystore.xlsx
+└── screenshots/
+    └── dashboard.png
+```
+
+## Conclusion
+
+This project demonstrates the use of **Tableau for data visualization, category analysis, installation analysis, trend analysis, and interactive dashboard development**.
+
+The project transforms Google Play Store application data into a visual analytical report that helps evaluate application distribution, ratings, installations, pricing type, and update activity.
+
+## Author
+
+**Ishan Keshre**
+
+Business Analyst | Data Analytics | SQL | Power BI | Tableau | Excel
