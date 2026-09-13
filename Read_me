@@ -137,12 +137,6 @@ The category rating analysis also shows that high installation volume and high a
 
 The free-versus-paid analysis highlights the strong dominance of the free application model within the dataset.
 
-## Dashboard Preview
-
-Add a screenshot of your Tableau dashboard here:
-
-![Google Play Store Tableau Dashboard](screenshots/dashboard.png)
-
 ## Business Recommendations
 
 * Focus category-level analysis on both **installation volume and average rating** rather than using a single performance metric.
@@ -168,8 +162,7 @@ Google-Play-Store-Tableau-Analysis/
 ├── README.md
 ├── Playstore.twb
 ├── googleplaystore.xlsx
-└── screenshots/
-    └── dashboard.png
+└── dashboard.png
 ```
 
 ## Conclusion
